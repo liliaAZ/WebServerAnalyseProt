@@ -1,0 +1,90 @@
+/* En-téte */
+header
+{
+    border-bottom: outset;
+    display: inline-block;
+    vertical-align: top;
+    position: center;
+    width: 90%;
+    min-width: 800;
+}
+h1
+{
+    text-align: center;
+    color: #6D071A; 
+    
+}
+#logo
+{
+    float: left;
+}
+
+/* Page */
+body
+{
+   border: 1px solid transparent;
+   margin: 20px 30px;
+   background-image: url("fond_site.jpg");
+
+}
+
+/* Menu */ 
+
+#menu_outils
+{
+   /* border:1px solid  black;*/
+    font-weight: 600;
+    width: 200px;
+    height: 29px;
+   
+}
+#menu_outils ul,li 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu_outils ul, li, hover
+{
+    position: relative;
+    z-index: 599;
+   
+}
+#menu_outils, ul ul
+{
+     top: 0; 
+     left: 100%;
+}
+#menu_outils span, #menu_outils a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    line-height: 160%;
+}
+#menu_outils li:hover, #menu_outils li.active 
+{
+    background:#B3B191 ;
+   
+}
+#menu_outils a 
+{
+    line-height: 160%;
+    padding: 16px, 8px, 16px, 28px;
+    width: 164px;
+}
+#contenu
+{
+ 
+  margin: 10px 10px 10px 209px;
+}
+
+/*Bas de page*/ 
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0; right: 0;
+    text-align: center;
+   
+}
