@@ -1,1 +1,88 @@
 
+html
+{
+    border: 1px solid stransparent;
+}
+
+#banner1
+{
+    display: block;
+    background-color: grey;
+    height: 40px;
+    width: 100%;
+}
+header
+{
+    border: 1px solid green;
+    display: inline-block;
+    vertical-align: top;
+    position: center;
+    width: 90%;
+    min-width: 800px;
+}
+#logo
+{
+    float: left;
+   
+}
+body
+{
+   border: 1px solid red;
+   position: auto;
+   width: 600px;
+   reight: 400px;
+   background-image: url("fond_site.jpg");
+
+}
+#container
+{
+    border: 1px solid yelow; 
+}
+
+h1
+{
+    text-align: center;
+    color: #6D071A; 
+    
+}
+#menu_outils
+{
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    right: 10px;
+    float: left;
+   
+}
+#element_menu
+{
+     
+    width: 100px;
+    float: left;
+   
+}
+p
+{
+  
+    color: black;
+
+}
+
+nav
+{
+
+    float: left;
+    width: 150px;
+    border: 2px solid black;
+
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0; right: 0;
+    text-align: center;
+   
+}
+
+
